@@ -1,18 +1,19 @@
-# Core dependencies
+#Core dependencies
 python-dotenv>=1.0.1
 faiss-cpu>=1.8.0
 langchain>=0.2.3
 langchain-community>=0.2.2
 
-# Embedding model (BAAI/bge-small-en-v1.5)
+#Embedding model (BAAI/bge-small-en-v1.5)
 sentence-transformers>=2.7.0
 transformers>=4.40.0
 
-# PDF loading and text splitting
+#PDF loading and text splitting
 pypdf>=4.2.0
 
-# Vector store utilities
+#Vector store utilities
 numpy>=1.26.4
 
-# Ollama chat model interface
+#Ollama chat model interface
+
 ollama>=0.1.7
