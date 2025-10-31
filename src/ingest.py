@@ -5,8 +5,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 
-DATA_DIR = "D:/AI_Topics/python_tutor/data"
-DB_DIR = "D:/AI_Topics/python_tutor/storage/faiss_index"
+DATA_DIR = "your_folder_name/data"
+DB_DIR = "your_folder_name/storage/faiss_index"
 CHUNK_SIZE = 128
 CHUNK_OVERLAP = 20
 
@@ -91,3 +91,4 @@ if __name__ == "__main__":
     vectordb = FAISS.from_documents(chunks, embeddings)
     vectordb.save_local(DB_DIR)
     print(f"Saved index to {DB_DIR}")
+
