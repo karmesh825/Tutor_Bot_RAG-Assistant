@@ -90,15 +90,15 @@ This makes it useful for focused self-study, classroom settings, and portfolio d
    pip install -r requirements.txt
    ```
 6.  **Install and run Ollama**
-   *1.* Install Ollama from [Ollama](https://ollama.ai) (one-time install).
-   *2.* Start the Ollama service:
+   * Install Ollama from [Ollama](https://ollama.ai) (one-time install).
+   * Start the Ollama service:
        ```
        ollama serve
        ```
        Leave that running in the background (or in another terminal).
-   *3.* Pull the model used in the code (phi3):
+   * Pull the model used in the code (phi3):
        ```
-       ollama oull phi3:3.8b
+       ollama pull phi3:3.8b
        ```
        This downloads the local LLM weights so tutor_cli.py can call it.
    If you use or change the model name in your code, you'll need to ollama pull <new_model_name> too.
