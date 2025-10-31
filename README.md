@@ -153,7 +153,7 @@ You should see something like:
 Try:
    ```
    You> explain dynamic programming
-   Tutor> Dynamic Programming (DP) is an algorithmic technique that breaks down problems into simpler subproblems and solves them just once while storing their solutions – a method known as memoization, or        solving each overlapping part only once by using tabulation[A First Course on Data Structures in Python.pdf]. This approach avoids the exponential time complexity of naive recursion for certain problems like Fibonacci sequence calculation and can significantly reduce computation times to polynomial levels.
+   Tutor> Dynamic Programming (DP) is an algorithmic technique that breaks down problems into simpler subproblems and solves them just once while storing their solutions – a method known as memoization, or solving each overlapping part only once by using tabulation[A First Course on Data Structures in Python.pdf]. This approach avoids the exponential time complexity of naive recursion for certain problems like Fibonacci sequence calculation and can significantly reduce computation times to polynomial levels.
 
    ```
 Try asking something off-topic:
