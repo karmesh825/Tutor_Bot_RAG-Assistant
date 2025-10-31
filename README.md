@@ -1,1 +1,1 @@
-# Tutor_Bot-Local-RAG-Assistant-
+# Tutor_Bot---RAG-Assistant
