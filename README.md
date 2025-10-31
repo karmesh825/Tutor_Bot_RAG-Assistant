@@ -158,13 +158,13 @@ You should see something like:
 Try:
    ```
    You> explain dynamic programming
-   Tutor> Dynamic Programming (DP) is an algorithmic technique that breaks down problems into simpler subproblems and solves them just once while storing their solutions – a method known as memoization, or        solving each overlapping part only once by using tabulation[A First Course on Data Structures in Python.pdf]. This approach avoids the exponential time complexity of naive recursion for certain problems like    Fibonacci sequence calculation and can significantly reduce computation times to polynomial levels.
+   Tutor> Dynamic Programming (DP) is an algorithmic technique that breaks down problems into simpler subproblems and solves them just once while storing their solutions – a method known as memoization, or        solving each overlapping part only once by using tabulation[A First Course on Data Structures in Python.pdf]. This approach avoids the exponential time complexity of naive recursion for certain problems like Fibonacci sequence calculation and can significantly reduce computation times to polynomial levels.
 
    ```
 Try asking something off-topic:
    ```
    You> Do you know CSS or HTML?
-   Tutor> I'm a DSA_Python_Tutor and my expertise is strictly within Python programming language as per your request. I don't have knowledge of CSS or HTML, but if needed for web development projects involving these    languages, it would be best to consult resources specifically dedicated to them.
+   Tutor> I'm a DSA_Python_Tutor and my expertise is strictly within Python programming language as per your request. I don't have knowledge of CSS or HTML, but if needed for web development projects involving these languages, it would be best to consult resources specifically dedicated to them.
    ```
    The *refusal* is expected and correct.
 
