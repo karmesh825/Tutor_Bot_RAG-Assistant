@@ -12,7 +12,7 @@ This makes it useful for focused self-study,classroom settings, and portfolio de
 
 ---
 
-## ==============================  Features ==============================
+## Features
 
 - **Local / offline** inference using [Ollama](https://ollama.ai) and a lightweight model (Phi-3 3.8B).
 - **Hugging Face Embeddings:** Uses 'BAAI/bge-small-en-v1.5' for sentence-level semantic similarity. This balances retrieval quality and speed for educational documents.
@@ -25,7 +25,7 @@ This makes it useful for focused self-study,classroom settings, and portfolio de
 - **Deterministic** responses ('temperature=0.0') to reduce hallucinations.
 - **Short/Long control**: you can ask "in 60 words", "detailed", "short", etc. Word budget is then enforced with soft trimming.
 
-## ==============================  How It Works? ==============================
+## How It Works?
 
 1. **Ingest Phase ('ingest.py')**
    - Reads all PDF files from './data/'.
