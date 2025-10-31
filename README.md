@@ -1,7 +1,5 @@
 # Tutor_Bot Retrieval-Augmented Generation (RAG)-Assistant
-Tutor Bot is a local, retrieval-augmented question-answer assistant designed for learning:
-- Python fundamentals,
-- Data Structures and Algorithms in Python.
+Tutor Bot is a local, retrieval-augmented question-answer assistant designed for learning.
 
 In this specific use case, instead of answering from the general internet or from the model`s pretraining, the tutor only answers using a small curated set of textbooks that you provide (here, open-licensed books like "A First Course on Data Structures in Python" by Donald R. Sheehy, MIT License © 2019 Don Sheehy).
 
