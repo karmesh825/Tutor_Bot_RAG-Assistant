@@ -41,29 +41,9 @@ This makes it useful for focused self-study, classroom settings, and portfolio d
    - For input you type a question.
    - The app retrieves the most relevant chunks from FAISS.
    - The local LLM (running in Ollama) generates an answer using only the context provided by the user.
-   - The app trims the answer to the requested word budget/limiting phrase and shows citations wherever possible.
+   - The app trims the answer to the requested word budget/limiting phrase (long/short) and shows citations wherever possible.
 
 -----------------------------------
-
-## Directory Structure
-
-tutor/
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-├─ requirements.txt
-├─ .env.example
-
-├─ src/
-│  ├─ ingest.py        # builds the FAISS index from PDFs
-│  ├─ tutor_cli.py     # command line interactive tutor
-
-├─ data/
-│  ├─ README_DATA.md   # instructions for adding PDFs
-│  └─ sample_docs/     # example pdf, open-licensed documents only
-
-└─ storage/
-   └─ faiss_index/     # generated vector store (NOT committed)
 
 
 
