@@ -205,3 +205,57 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =============================
+# Project-Specific Additions
+# =============================
+
+# LangChain / FAISS storage
+storage/
+*.faiss
+*.pkl
+*.db
+*.json
+*.csv
+
+# Model weights / checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Ollama / Local LLM configs
+ollama/
+*.gguf
+*.ggml
+*.yaml
+
+# Logs and runtime files
+logs/
+*.log
+*.tmp
+*.cache
+
+# Streamlit / Gradio
+.streamlit/
+gradio_web_server.log
+model_worker_*.log
+
+# API keys / secrets
+config.yaml
+config.json
+*.env
+secrets/
+keys/
+
+# Notebooks output
+*.ipynb_checkpoints
+output/
+results/
+runs/
+
+# Misc
+.DS_Store
+Thumbs.db
