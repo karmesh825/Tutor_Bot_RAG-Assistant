@@ -5,7 +5,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.prompts import ChatPromptTemplate
 
 #path to faiss index folder 
-DB_DIR = "D:/AI_Topics/python_tutor/storage/faiss_index"
+DB_DIR = "your_folder_name/storage/faiss_index"
 
 #control knobs
 DEFAULT_MAX_WORDS = 80 # default brevity(use of brief expressions/word budget)
@@ -162,4 +162,5 @@ while True:
     #As an extra guard we truncate to the word budget (in case the model overflows slightly)
     text = soft_sentence_trim(ans.content,max_words)
     
+
     print(f"Tutor> {text}\n")
