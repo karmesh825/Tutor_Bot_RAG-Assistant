@@ -37,7 +37,7 @@ This makes it useful for focused self-study,classroom settings, and portfolio de
      - It works offline and provides semantic similarity strong enough for retrieval tasks.  
      - 'normalize_embeddings=True' ensures all vectors are normalized, improving FAISS search accuracy.
      - Builds a FAISS vector index from these embeddings and saves it to './storage/faiss_index/'.
-2. **Chat Phase ('cli_tutor.py')**
+2. **Chat Phase ('tutor_cli.py')**
    - For input you type a question.
    - The app retrieves the most relevant chunks from FAISS.
    - The local LLM (running in Ollama) generates an answer using only the context provided by the user.
@@ -47,7 +47,7 @@ This makes it useful for focused self-study,classroom settings, and portfolio de
 
 ## Directory Structure
 
-python-tutor/
+tutor/
 ├─ README.md
 ├─ LICENSE
 ├─ .gitignore
