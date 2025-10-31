@@ -5,9 +5,6 @@ Tutor Bot is a local, retrieval-augmented question-answer assistant designed for
 
 In this specific use case, instead of answering from the general internet or from the model`s pretraining, the tutor only answers using a small curated set of textbooks that you provide (here, open-licensed books like "A First Course on Data Structures in Python" by Donald R. Sheehy, MIT License © 2019 Don Sheehy).
 
-If the answer is not present in the ingested sources/files, the tutor will explicitly mention:
-``I do not have enough information in the provided documents.``
-
 This makes it useful for focused self-study, classroom settings, and portfolio demonstrations of Retrieval-Augmented Generation (RAG).
 
 ---
