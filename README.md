@@ -84,7 +84,7 @@ This makes it useful for focused self-study, classroom settings, and demonstrati
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-6.  **Install and run Ollama**
+5.  **Install and run Ollama**
    * Install Ollama from [Ollama](https://ollama.ai) (one-time install).
    * Start the Ollama service:
        ```
@@ -101,7 +101,7 @@ This makes it useful for focused self-study, classroom settings, and demonstrati
 
 
 
-7.  **Add your PDFs**
+6.  **Add your PDFs**
    Put your study PDFs into the data/ folder.
    * Only include content you are allowed to use(licensed product e.g, MIT, CC, etc.).
    * Do *not* commit such PDFs to GitHub of they are copyrighted.
@@ -115,7 +115,7 @@ This makes it useful for focused self-study, classroom settings, and demonstrati
         ```
 
 
-8.  **Build the vector index (ingestion step)**
+7.  **Build the vector index (ingestion step)**
    Run the ingest script once to create the FAISS index:
    ```
    python src/ingest.py
@@ -137,7 +137,7 @@ This makes it useful for focused self-study, classroom settings, and demonstrati
    * Re-run this anytime you add/remove PDFs.
 
    
-9.  **Run the tutor CLI**
+8.  **Run the tutor CLI**
 
 Now start the interactive assistant:
    ```
